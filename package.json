@@ -1,6 +1,5 @@
 {
-  "_from": "vaplayer@^1.2.0",
-  "_id": "vaplayer@1.2.0",
+  "_from": "vaplayer@^1.0.0",
   "_inBundle": false,
   "_integrity": "sha1-DmWic7TtbgPbU/0p2MPkOkTJp64=",
   "_location": "/vaplayer",
@@ -8,22 +7,19 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "vaplayer@^1.2.0",
+    "raw": "vaplayer@^1.0.0",
     "name": "vaplayer",
     "escapedName": "vaplayer",
-    "rawSpec": "^1.2.0",
+    "rawSpec": "^1.0.0",
     "saveSpec": null,
-    "fetchSpec": "^1.2.0"
+    "fetchSpec": "^1.0.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
   "_spec": "vaplayer@^1.2.0",
-  "author": {
-    "name": "yefu",
-    "email": "quq@quq.cat"
-  },
+  "author": "yefu <quq@quq.cat>",
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -145,7 +141,7 @@
     "audio",
     "media"
   ],
-  "license": "SATA",
+  "license": "ISC",
   "main": "./dist/APlayer.min.js",
   "name": "vaplayer",
   "private": false,
@@ -163,5 +159,5 @@
     "test": "npm run eslint & npm run tslint",
     "tslint": "tslint src/components/*.ts"
   },
-  "version": "1.2.0"
+  "version": "1.0.0"
 }
