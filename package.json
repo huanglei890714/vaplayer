@@ -159,5 +159,5 @@
     "test": "npm run eslint & npm run tslint",
     "tslint": "tslint src/components/*.ts"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
